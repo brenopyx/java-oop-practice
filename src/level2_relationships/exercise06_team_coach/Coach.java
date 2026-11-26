@@ -5,7 +5,7 @@ public class Coach {
     private int experienceYears;
 
     public Coach(String name, int experienceYears) {
-        this.name = name;
+        this.setName(name);
         this.experienceYears = experienceYears;
     }
 
